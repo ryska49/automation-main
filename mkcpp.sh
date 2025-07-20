@@ -55,9 +55,9 @@ done
 
 
 # Move and rename the directory
-mv "${HOME}/Desktop/ass_test" "${HOME}/Desktop/24mcf1r19_kartik"
+mv "${HOME}/Desktop/ass_test" "${HOME}/Desktop/24mcf1r42_rishabh_chandel"
 mkdir -p "${HOME}/Desktop/ass_test"
-cp -rv "${HOME}/Desktop/24mcf1r19_kartik/codes" "${HOME}/Desktop/ass_test"
+cp -rv "${HOME}/Desktop/24mcf1r42_rishabh_chandel/codes" "${HOME}/Desktop/ass_test"
 
 # Run the Python script to generate the docx file
 python3.13 "${HOME}/automation/generate_doc.py"
@@ -66,7 +66,7 @@ python3.13 "${HOME}/automation/generate_doc.py"
 cd "${HOME}/Desktop"
 
 # Rename the directory with the roll number and name
-mv "${HOME}/Desktop/24mcf1r19_kartik" "${HOME}/Desktop/24mcf1r${roll_no}_${name}"
+mv "${HOME}/Desktop/24mcf1r42_rishabh_chandel" "${HOME}/Desktop/24mcf1r${roll_no}_${name}"
 
 # Create a zip file of the renamed directory
 zip -r "24mcf1r${roll_no}_${name}.zip" "24mcf1r${roll_no}_${name}"

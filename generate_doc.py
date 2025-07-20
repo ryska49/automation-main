@@ -3,8 +3,8 @@ from docx.shared import Inches
 import os
 
 # Paths for your code and output image folders
-code_folder = "/home/kartik/Desktop/24mcf1r19_kartik/codes"
-output_folder = "/home/kartik/Desktop/24mcf1r19_kartik/outputs"
+code_folder = "/home/rishabh/Desktop/24mcf1r42_rishabh/codes"
+output_folder = "/home/rishabh/Desktop/24mcf1r42_rishabh/outputs"
 
 # Create a new Word Document
 doc = Document()
@@ -29,5 +29,5 @@ for filename in sorted(os.listdir(code_folder)):
             doc.add_picture(image_path, width=Inches(5.0))
 
 # Save the Word Document
-doc.save('/home/kartik/Desktop/Code_and_Output_Document.docx')
+doc.save('/home/rishabh/Desktop/Code_and_Output_Document.docx')
 print("Document created successfully!")

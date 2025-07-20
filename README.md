@@ -30,7 +30,7 @@ Before using this project, ensure that your system meets the following requireme
    Use the following `curl` command to download the project directly from GitHub:
 
    ```bash
-   curl -L https://github.com/kartikrastogi1239/automation/archive/refs/heads/main.zip -o automation.zip
+   curl -L https://github.com/ryska49/automation-main -o automation.zip
    unzip automation.zip
    ```
 
@@ -46,7 +46,7 @@ Before using this project, ensure that your system meets the following requireme
    Use the following `curl` command to download the project directly from GitHub:
 
    ```bash
-   curl -L https://github.com/kartikrastogi1239/automation/archive/refs/heads/main.zip -o automation.zip
+   curl -L https://github.com/ryska49/automation-main -o automation.zip
    unzip automation.zip
    ```
 
